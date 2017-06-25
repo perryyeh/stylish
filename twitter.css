@@ -1,74 +1,76 @@
 @-moz-document domain('twitter.com') {
-/*ad*/
-#above-timeline-prompt, .dashboard-right{ 
-  display: none
-}
-/*nav*/
-.global-nav .container, .SearchNavigation-textContainer, .AdaptiveFiltersBar-container{
- max-width:100%
-}
-.nav-extras{ 
-  margin-right:10px
-}
-/*body*/
-.AdaptiveSearchPage .AppContent-main{
- max-width:100%;}
-body.three-col .wrapper{ 
-  width: 100%;
-}
-.AppContent{ 
-  padding-left:0; 
-  padding-right:0
-}
-.dashboard-left{ 
-  margin-left:10px
-}
-body.three-col .top-timeline-tweetbox {
-  width:calc(100% - 320px); 
-  margin-right:0
-}
-.wrapper .content-main{
- width:calc(100% - 320px);
-}
-.u-lg-size2of3{
- width:calc(100% - 10px)!important;
-}
-.u-lg-size2of3 .content-main{
- 	width:auto;
-}
-/*moments*/
-.MomentsPage.MomentsPermalinkPage .MomentsPermalinkPage-content, .MomentsPage.MomentsGuidePage .MomentsGuidePage-content{ 
-  width:auto;
-}
-.MomentGuideNavigation-container{ 
-  max-width:100%
-}
-.MomentGuideNavigation-createButton{ 
-  right:10px
-}
-/*font-size*/
-.nav>li>a { 
-  font-size:16px
-}
-.TweetTextSize, .TweetTextSize.TweetTextSize--normal{ 
-  font-size:20px;
-  line-height:30px
-}
-/*profile*/
-.AppContainer{
-	max-width:100%;
-}
-.UserActions{ 
-  margin-right:10px
-}
-/*modal*/
-.PermalinkOverlay-modal{
- width:calc(60%);
- margin-left:-30%;
-}
-.permalink-container{
- width:calc(100%);
-}
+	/*ad*/
+	#above-timeline-prompt, .dashboard-right{ 
+	  display: none
+	}
+	/*nav*/
+	.global-nav .container, .SearchNavigation-textContainer, .AdaptiveFiltersBar-container{
+	 max-width:100%
+	}
+	.nav-extras{ 
+	  margin-right:10px
+	}
+	/*body*/
+	.AdaptiveSearchPage .AppContent-main{
+	 max-width:100%;}
+	body.three-col .wrapper{ 
+	  width: 100%;
+	}
+	.AppContent{ 
+	  padding-left:0; 
+	  padding-right:0
+	}
+	.dashboard-left{ 
+	  margin-left:10px
+	}
+	body.three-col .top-timeline-tweetbox {
+	  width:calc(100% - 320px); 
+	  margin-right:0
+	}
+	.wrapper .content-main{
+	 width:calc(100% - 320px);
+	}
+	.u-lg-size2of3{
+	 width:calc(100% - 10px)!important;
+	}
+	.u-lg-size2of3 .content-main{
+	 	width:auto;
+	}
+	/*moments*/
+	.MomentsPage.MomentsPermalinkPage .MomentsPermalinkPage-content, .MomentsPage.MomentsGuidePage .MomentsGuidePage-content{ 
+	  width:auto;
+	}
+	.MomentGuideNavigation-container{ 
+	  max-width:100%
+	}
+	.MomentGuideNavigation-createButton{ 
+	  right:10px
+	}
+	/*font-size*/
+	@media screen and (min-resolution: 192dpi) {
+		.nav>li>a { 
+		  font-size:16px
+		}
+		.TweetTextSize, .TweetTextSize.TweetTextSize--normal{ 
+		  font-size:20px;
+		  line-height:30px
+		}
+		/*profile*/
+		.AppContainer{
+			max-width:100%;
+		}
+		.UserActions{ 
+		  margin-right:10px
+		}
+		/*modal*/
+		.PermalinkOverlay-modal{
+		 width:calc(60%);
+		 margin-left:-30%;
+		}
+		.permalink-container{
+		 width:calc(100%);
+		}
+	}
 }
 
 
