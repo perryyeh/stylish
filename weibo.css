@@ -126,6 +126,9 @@ body{
 .PCD_pictext_h .text_mod_tit{
  line-height:1.5!important
 }
+.WB_editor_iframe{
+  font-size: 20px;
+}
 /*bpage*/
 .WB_frame_a{
   width:auto;
