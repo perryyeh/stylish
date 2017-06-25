@@ -21,7 +21,8 @@
   #v6_pl_rightmod_helpcomment,
   #v6_pl_rightmod_helpfav,
   #v6_pl_rightmod_rank,
-  #v6_pl_rightmod_attfeed{
+  #v6_pl_rightmod_attfeed,
+  #Pl_Core_ThirdHtmlData__6{
     display:none;
   }
   div[title="我也想出现在这里"],
@@ -34,8 +35,8 @@
   .WB_ad_tm2015 {
     display:none;
   }
-  /* 去掉侧边栏的微博红包 */
-  #v6_pl_rightmod_hongbao {display: none;}
+  /* 侧边栏 */
+  #v6_pl_rightmod_hongbao, #pl_common_ali {display: none;}
 
   /*header*/
   .WB_global_nav .gn_header{width:auto;}
@@ -45,7 +46,7 @@
   /*body*/
   .WB_frame,
   .WB_main_c {
-    width:auto;
+    width:auto!important;
   }
   .WB_main_l{ 
       width:240px
@@ -55,14 +56,36 @@
       margin-top:183px;
   }
   .WB_frame #plc_main{
-    width:calc(100% - 250px);
+    width:calc(100% - 240px)!important;
+  }
+  .B_message .WB_main_c{
+  width:calc(100% - 250px)
   }
   .B_page .WB_frame #plc_main{
     width:calc(100%);
   }
   .WB_frame_c{
-    width:calc(100% - 460px)
+    width:calc(100% - 460px)!important;
   }
+  .S_main_bg{
+    width: auto;
+    margin-left:10px;
+  }
+  .S_content_l{
+    width:calc(100% - 310px);
+  }
+  .private_dialogue_box .private_dialogue_body{
+    width:100%;
+  }
+  .private_list_box .private_bubble_body .bubble_cont{
+      width:1000px;
+      max-width: 100%;
+  }
+  .private_list_box .private_bubble_body .bubble_cont .cont_font{
+    width: auto;
+    max-width: 100%;
+  }
+
   /*timeline*/
   .WB_timeline{
     left:auto;
@@ -92,9 +115,10 @@
     margin-top:0;
   }
   /*person*/
-  #plc_main .WB_main_r{
+  #v6_pl_rightmod_myinfo{
     position:fixed;
     left:0;
+                        top:66px;
   }
   .PCD_header .banner_transition{
     background-size:cover
@@ -138,6 +162,10 @@
     .WB_editor_iframe{
       font-size: 20px;
     }
+    .feed_list .content{
+      font-size: 20px;
+      line-height: 32px;
+    }
   }
   /*bpage*/
   .WB_frame_a{
@@ -146,5 +174,8 @@
   }
   .B_page .WB_frame{
     width:100%;
+  }
+  .Tf_text{
+    line-height: 1.5;
   }
 }
