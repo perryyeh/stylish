@@ -1,31 +1,40 @@
 @-moz-document domain('twitter.com') {
 	/*ad*/
-	#above-timeline-prompt, .dashboard-right{ 
+	#above-timeline-prompt, .dashboard-right{
 	  display: none
 	}
 	/*nav*/
 	.global-nav .container, .SearchNavigation-textContainer, .AdaptiveFiltersBar-container{
 	 max-width:100%
 	}
-	.nav-extras{ 
+	.nav-extras{
 	  margin-right:10px
 	}
 	/*body*/
 	.AdaptiveSearchPage .AppContent-main{
 	 max-width:100%;}
-	body.three-col .wrapper{ 
+	body.three-col .wrapper{
 	  width: 100%;
 	}
-	.AppContent{ 
-	  padding-left:0; 
+	.AppContent{
+	  padding-left:0;
 	  padding-right:0
 	}
-	.dashboard-left{ 
-	  margin-left:10px
+	.dashboard-left{
+	  margin-left:10px;
+      position:fixed;
+      float:left !important;
+	}
+	[data-advertiser-id],
+	.wtf-module.has-content,
+	.LiveVideoHomePageModuleContainer,
+	.Footer{
+		display:none;
 	}
 	body.three-col .top-timeline-tweetbox {
-	  width:calc(100% - 320px); 
-	  margin-right:0
+	  width:calc(100% - 320px);
+	  float:right !important;
+    margin-right:10px;
 	}
 	.wrapper .content-main{
 	 width:calc(100% - 320px);
@@ -37,21 +46,21 @@
 	 	width:auto;
 	}
 	/*moments*/
-	.MomentsPage.MomentsPermalinkPage .MomentsPermalinkPage-content, .MomentsPage.MomentsGuidePage .MomentsGuidePage-content{ 
+	.MomentsPage.MomentsPermalinkPage .MomentsPermalinkPage-content, .MomentsPage.MomentsGuidePage .MomentsGuidePage-content{
 	  width:auto;
 	}
-	.MomentGuideNavigation-container{ 
+	.MomentGuideNavigation-container{
 	  max-width:100%
 	}
-	.MomentGuideNavigation-createButton{ 
+	.MomentGuideNavigation-createButton{
 	  right:10px
 	}
 	/*font-size*/
 	@media screen and (min-resolution: 192dpi) {
-		.nav>li>a { 
+		.nav>li>a {
 		  font-size:16px
 		}
-		.TweetTextSize, .TweetTextSize.TweetTextSize--normal{ 
+		.TweetTextSize, .TweetTextSize.TweetTextSize--normal{
 		  font-size:20px;
 		  line-height:30px
 		}
@@ -59,7 +68,7 @@
 		.AppContainer{
 			max-width:100%;
 		}
-		.UserActions{ 
+		.UserActions{
 		  margin-right:10px
 		}
 		/*modal*/

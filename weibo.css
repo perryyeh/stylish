@@ -35,6 +35,11 @@
   .WB_ad_tm2015 {
     display:none;
   }
+  /*left menu */
+  .WB_left_nav .lev_Box:nth-of-type(5),
+  .lev_line_v2 {
+    display:none;
+  }
   /* 侧边栏 */
   #v6_pl_rightmod_hongbao, #pl_common_ali {display: none;}
 
@@ -44,22 +49,24 @@
     max-width: 200px;
   }
   /*body*/
-  .WB_frame,
-  .WB_main_c {
+  .WB_frame{
+    width:100%;
+  }
+  .B_discover .WB_frame, .WB_main_c {
     width:auto!important;
   }
-  .WB_main_l{ 
+  .WB_main_l{
       width:240px
   }
   .WB_frame .WB_left_nav{
     width:auto;
-      margin-top:183px;
+      margin-top:175px;
   }
   .WB_frame #plc_main{
     width:calc(100% - 240px)!important;
   }
   .B_message .WB_main_c{
-  width:calc(100% - 250px)
+  width:calc(100% - 250px)!important;
   }
   .B_page .WB_frame #plc_main{
     width:calc(100%);
@@ -118,7 +125,8 @@
   #v6_pl_rightmod_myinfo{
     position:fixed;
     left:0;
-                        top:66px;
+    top:66px;
+    border-radius:0;
   }
   .PCD_header .banner_transition{
     background-size:cover
@@ -135,6 +143,9 @@
   .W_gotop{
     left:auto;
     right:0;
+  }
+  .B_artical .W_gotop_v3{
+    left:50%;
   }
   /*font*/
   @media screen and (min-resolution: 192dpi) {
