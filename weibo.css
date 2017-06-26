@@ -22,7 +22,8 @@
   #v6_pl_rightmod_helpfav,
   #v6_pl_rightmod_rank,
   #v6_pl_rightmod_attfeed,
-  #Pl_Core_ThirdHtmlData__6{
+  #Pl_Core_ThirdHtmlData__6,
+  #Pl_Core_RecommendFeed__75 ~ div{
     display:none;
   }
   div[title="我也想出现在这里"],
