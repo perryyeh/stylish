@@ -69,8 +69,8 @@
   .B_message .WB_main_c{
   width:calc(100% - 250px)!important;
   }
-  .B_page .WB_frame #plc_main{
-    width:calc(100%);
+  .B_page #plc_main{
+    width:calc(100%)!important;
   }
   .WB_frame_c{
     width:calc(100% - 460px)!important;
@@ -122,6 +122,9 @@
   .WB_notes{
     margin-top:0;
   }
+  .send_weibo .func .limits{
+    margin-top: 2px;
+  }
   /*person*/
   #v6_pl_rightmod_myinfo{
     position:fixed;
@@ -158,6 +161,7 @@
     }
     .W_f14{
       font-size:20px;
+      line-height: 30px;
     }
     .WB_global_nav .gn_nav_list li{
       font-size:20px;
