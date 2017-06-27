@@ -122,9 +122,6 @@
   .WB_notes{
     margin-top:0;
   }
-  .send_weibo .func .limits{
-    margin-top: 2px;
-  }
   /*person*/
   #v6_pl_rightmod_myinfo{
     position:fixed;
@@ -158,6 +155,9 @@
     }
     .WB_frame_a, .WB_frame_a_fix, .WB_frame_b, .WB_frame_c, .WB_frame_d, .WB_main_l, .WB_main_c, .WB_main_r, .WB_main_cr, .WB_main_a, .WB_toptips{
       font-size:18px;
+    }
+    .send_weibo .func .limits{
+      margin-top: 2px;
     }
     .W_f14{
       font-size:20px;
