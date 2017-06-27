@@ -69,8 +69,8 @@
   .B_message .WB_main_c{
   width:calc(100% - 250px)!important;
   }
-  .B_page .WB_frame #plc_main{
-    width:calc(100%);
+  .B_page #plc_main{
+    width:calc(100%)!important;
   }
   .WB_frame_c{
     width:calc(100% - 460px)!important;
