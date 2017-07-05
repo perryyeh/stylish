@@ -151,7 +151,11 @@
   /*article*/
   .WB_editor_iframe{
     height:auto!important;
-      overflow:auto!important;
+    overflow:auto!important;
+    margin-bottom:0!important;
+  }
+  div[node-type="maskContent"]{
+    display:none;
   }
   /*font*/
   @media screen and (min-resolution: 192dpi) {
