@@ -93,7 +93,10 @@
     width: auto;
     max-width: 100%;
   }
-
+   /*text*/
+   .WB_text{
+     line-height:1.5!important;
+   }
   /*timeline*/
   .WB_timeline{
     left:auto;
@@ -174,9 +177,6 @@
     }
     .WB_global_nav .gn_nav_list li{
       font-size:20px;
-    }
-    .WB_feed_v3 .WB_expand .WB_text{
-      line-height:1.5;
     }
     .WB_left_nav .lev a{
       font-size:16px;
