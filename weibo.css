@@ -1,5 +1,5 @@
 @-moz-document domain('weibo.com') {
-  .PCD_mplayer,
+.PCD_mplayer,
   #v6_pl_content_biztips,
   #v6_pl_rightmod_updatev6,
   #v6_pl_rightmod_ads35,
@@ -147,6 +147,11 @@
   }
   .B_artical .W_gotop_v3{
     left:50%;
+  }
+  /*article*/
+  .WB_editor_iframe{
+    height:auto!important;
+      overflow:auto!important;
   }
   /*font*/
   @media screen and (min-resolution: 192dpi) {
