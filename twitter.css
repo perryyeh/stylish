@@ -28,13 +28,14 @@
 	[data-advertiser-id],
 	.wtf-module.has-content,
 	.LiveVideoHomePageModuleContainer,
+	.DismissibleModule,
 	.Footer{
 		display:none;
 	}
 	body.three-col .top-timeline-tweetbox {
-	  width:calc(100% - 320px);
-	  float:right !important;
-    margin-right:10px;
+	  	width:calc(100% - 320px);
+	  	float:right !important;
+    	margin-right:10px;
 	}
 	.wrapper .content-main{
 	 width:calc(100% - 320px);
@@ -45,12 +46,15 @@
 	.u-lg-size2of3 .content-main{
 	 	width:auto;
 	}
+	.card-type-summary_large_image iframe{
+		max-width: 508px!important;
+	}
 	/*moments*/
 	.MomentsPage.MomentsPermalinkPage .MomentsPermalinkPage-content, .MomentsPage.MomentsGuidePage .MomentsGuidePage-content{
 	  width:auto;
 	}
 	.MomentGuideNavigation-container{
-	  max-width:100%
+	  max-width:100%;
 	}
 	.MomentGuideNavigation-createButton{
 	  right:10px
@@ -81,5 +85,3 @@
 		}
 	}
 }
-
-

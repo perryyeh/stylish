@@ -53,11 +53,14 @@
   .WB_frame{
     width:100%;
   }
-  .B_discover .WB_frame, .WB_main_c {
+  .B_discover .WB_frame{
     width:auto!important;
   }
   .WB_main_l{
     width:240px
+  }
+  .WB_main_c {
+    width:calc(100% - 10px)!important;
   }
   .WB_frame .WB_left_nav{
     width:auto;
