@@ -1,0 +1,11 @@
+@-moz-document domain('zimuzu.tv') {
+	div:not(.notice)[style],
+	ins,
+	iframe
+	{
+		display:none!important;
+	}
+	.commentBox div[style]{
+	 display:inline-block!important;
+	}
+}
