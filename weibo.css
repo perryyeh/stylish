@@ -128,6 +128,9 @@
   .WB_notes{
     margin-top:0;
   }
+  .send_weibo .kind{
+    width:460px;
+  }
   /*person*/
   #v6_pl_rightmod_myinfo{
     position:fixed;
